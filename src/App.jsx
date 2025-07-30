@@ -4,7 +4,7 @@ import Hero from './components/Hero.jsx';
 import Analytics from './components/Analytics.jsx';
 import Newsletter from './components/Newsletter.jsx';
 import Cards from './components/Cards.jsx';
-
+import Footer from './components/Footer.jsx';
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
       <Analytics />
       <Newsletter />
       <Cards />
+      <Footer />
     </div>
   )
 }
